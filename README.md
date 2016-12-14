@@ -1,10 +1,14 @@
 # LearnTensorflow
+## How To
+### Distributed TensorFlow
+
 ## Basic
 * [tensorflow Source Codes](https://github.com/tensorflow/tensorflow)
 
     ```
        tensorflow_base_dir = '/home/admin/zhushun/software/anaconda2/envs/tensorflow/lib/python2.7/site-packages/tensorflow' 
     ```
+ use placeholder to assgin data of type and shape
     
 ## Master materials from [official website](https://www.tensorflow.org/)
 ## Read state-of-art papers
