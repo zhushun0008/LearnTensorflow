@@ -1,6 +1,7 @@
 ```
 # Configure enviroments
 export PATH=/home/admin/zhushun/software/anaconda2/bin:$PATH
+source activate tensorflow
 source $HADOOP_HOME/libexec/hadoop-config.sh
 export LD_LIBRARY_PATH=$LD_LIBRARY_PATH:$JAVA_HOME/jre/lib/amd64/server
 CLASSPATH=$($HADOOP_HDFS_HOME/bin/hdfs classpath --glob) ipython
@@ -18,8 +19,7 @@ with tf.Session() as sess:
 	coord = tf.train.Coordinator()
 	threads = tf.train.start_queue_runners(coord=coord)
 	for i in range(6):
-		print(sess.run([col4, col5])
-		
+		print(sess.run([col4, col5]))		
 		
 # Results
 [11, 1]
