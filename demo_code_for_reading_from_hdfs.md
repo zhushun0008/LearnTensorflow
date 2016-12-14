@@ -7,9 +7,6 @@ CLASSPATH=$($HADOOP_HDFS_HOME/bin/hdfs classpath --glob) ipython
 #export PATH=/home/admin/zhushun/software/anaconda2/bin:$PATH
 
 
-
-
-
 # Demo scripts in IPython
 import tensorflow as tf
 filename_queue = tf.train.string_input_producer(["hdfs://default/user/jd_ad/zhushun/projects/test/aaa.csv","hdfs://default/user/jd_ad/zhushun/projects/test/bbb.csv"])
